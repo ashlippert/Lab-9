@@ -23,8 +23,8 @@ April 8th, 2025
 ## Assembly Methods
 **Objective 1: PID Use**
 
-  To begin the lab, connect the RedBoard to your computer. Mount the ultrasonic sensor on the front of the robot chassis, ensuring it faces forward. Wire the sensor so that VCC is connected to 5V, GND to ground, the TRIG pin to a digital output (such as D9), and the ECHO pin to a digital input (such as D10) on the Arduino. 
-  Next, mount the two DC motors onto the robot chassis and connect them to the outputs of the motor driver (typically OUT1/OUT2 and OUT3/OUT4). The motor driver inputs should be connected to appropriate digital pins on the RedBoard, and the driver should be powered using the battery pack, with correct connections to power and ground. This circuit is the same as what was used in Lab 6, and the schematic for assembling the motor circuit is provided in Figure 1 below.
+  To begin the lab, connect the RedBoard to your computer. Mount the ultrasonic sensor on the front of the robot chassis, ensuring it faces forward. Wire the sensor so that VCC is connected to 5V, GND to ground, the TRIG pin to a digital output, and the ECHO pin to a digital input on the Arduino. 
+  Next, mount the two DC motors onto the robot chassis and connect them to the outputs of the motor driver. The motor driver inputs should be connected to appropriate digital pins on the RedBoard, and the driver should be powered using the battery pack, with correct connections to power and ground. This circuit is the same as what was used in Lab 6, and the schematic for assembling the motor circuit is provided in Figure 1 below.
 
   <div align= "center">
 <img src= "https://github.com/user-attachments/assets/4b8a9e11-0ed9-4751-8eaf-1036c17608a1" alt "Schematic 1" width="400"/>
