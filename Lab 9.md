@@ -1,4 +1,4 @@
-# Lab 8: Take Control - The PID Feedback Controller
+# Lab 9: Take Control - The PID Feedback Controller
 
 **Authors:**
 
