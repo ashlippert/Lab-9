@@ -148,20 +148,21 @@ alt "Motor Circuit Code 4" width="400"/>
    Begin testing your complete system by selecting a target distance and placing the robot in front of a wall. Power on the robot and observe its behavior as it attempts to maintain the set distance. The robot should move forward if it is too far from the wall and backward if it is too close.
 
 Once basic movement is confirmed, start tuning the PID parameters. Begin with a small proportional gain (Kp) and gradually increase it until the robot starts to respond meaningfully to distance changes. Then introduce a small integral gain (Ki) to reduce steady-state error. Finally, add derivative gain (Kd) to dampen oscillations and improve system stability. After each change, observe how the robot’s movement adjusts and record the behavior. The final modified code values are shown in the Test Results Section Below.
+On top of modifying the Ki, Kp, and Kd values, the minimum and maximum speeds were adjusted. It was noted that the motor car performed better at lower speeds.
 
 ## Test Results:
 
-**Table 1: Testing Minimum Speed to Move Car**
+**Table 1: Testing Different Ki, Kp, and Kd Values**
 
-| Set Speed | Move? |
-|-----------|-------|
-| 100       | Yes   |
-| 95        | Yes   |
-| 93        | Yes   |
-| 91        | Yes   |
-| 90        | No    |
-| 89        | No    |
-| 88        | No    |
+|  Ki  |  Kp  |  Kd  |       Comments     |
+|------|------|------|--------------------|
+| 0.5  | 1    | 0.1  | Starting values    |
+| 0.5  | 2    | 0.1  | More stopping?     |
+| 0.5  | 0.5  | 0.1  | Scooted backwards  |
+| 1    | 1    | 0.1  | Skipping movements |
+| 1    | 2    | 0.1  | Less randomized?   |
+| 1    | 2    | 0.5  | Better             |
+| 4    | 0.1  | 0.3  | Best               |
 
 **Modified Code for Kp Ki, and Kd Adjustments**
 
