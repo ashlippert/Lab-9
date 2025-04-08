@@ -137,7 +137,7 @@ alt "Motor Circuit Code 4" width="400"/>
 <div align="center">
   <img src="https://github.com/user-attachments/assets/77c86507-5b4c-45c3-88dd-55a6bd3763ff" alt="Serial Monitor" width="400">
       <br/>
-  <figcaption style="font-size: 16px; text-align: center;"> Figure 9: Serial monitor output in Arduino IDE for motor movement code. </figcaption>
+  <figcaption style="font-size: 16px; text-align: center;"> Figure 10: Serial monitor output in Arduino IDE for motor movement code. </figcaption>
 </div>
 
 <br/>
@@ -170,7 +170,7 @@ On top of modifying the Ki, Kp, and Kd values, the minimum and maximum speeds we
 <img src="https://github.com/user-attachments/assets/ed213957-0b12-46f5-b496-b394eb1cf92c"
 alt "Modified Code" width="400"/>
 <br>
-<figcaption style="font-size: 16px; text-align: center;"> Figure 10: Modified code from Part 2 with adjusted Kp, Ki, and Kd. </figcaption>
+<figcaption style="font-size: 16px; text-align: center;"> Figure 11: Modified code from Part 2 with adjusted Kp, Ki, and Kd. </figcaption>
 </div>
 <br>
 
