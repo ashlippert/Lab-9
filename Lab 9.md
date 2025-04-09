@@ -177,6 +177,10 @@ alt "Modified Code" width="400"/>
 
 ## Discussion:
 
+This lab successfully demonstrated how a PID controller can be used to maintain a fixed distance between a robot and a wall. By continuously adjusting motor output based on the error between the setpoint (20 cm) and the measured distance, the robot was able to dynamically correct its position.
 
+Tuning the PID values was a key part of the process. Higher proportional gains (Kp) improved responsiveness but caused overshoot, while adding derivative gain (Kd) reduced oscillations. The final tuning—Kp = 0.1, Ki = 4, Kd = 0.3—resulted in smooth, stable movement. We also found that reducing the overall motor speed range improved control precision, as higher speeds led to erratic behavior.
+
+Using the PID_v2 library simplified implementation and allowed us to focus on tuning and real-time behavior. The experiment highlighted how PID parameters and hardware limitations influence performance, providing valuable insight into real-world feedback systems.
 
 ## Conclusion:
